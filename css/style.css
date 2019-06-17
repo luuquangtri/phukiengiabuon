@@ -303,10 +303,16 @@ header .nav {
   .cptr p {
     font-family: "UTM Avo"; }
 
-@media screen and (min-width: 240px) and (max-width: 768px) {
+.mm-toggle-wrap {
+  display: none; }
+
+@media screen and (min-width: 240px) and (max-width: 767px) {
   .fix-width {
-    max-width: 100%;
+    max-width: 50%;
     flex: 0 0 100%; }
+
+  .product-top .card .card-body .card-text, .product-wholesale-price .card .card-body .card-text {
+    font-size: 12px; }
 
   .list-carried ul {
     overflow-x: scroll;
@@ -339,6 +345,28 @@ header .nav {
     text-align: center; }
 
   .list-carried ul li {
-    padding: 10px 21px; } }
+    padding: 10px 21px; }
+
+  .mm-toggle {
+    float: right; }
+
+  .mm-toggle-wrap {
+    background: transparent;
+    display: block; }
+
+  .mobile-menu .mm-search {
+    background: transparent; }
+
+  .logo h1 {
+    display: none; }
+
+  .header-top .mobile-menu a {
+    color: black; }
+
+  .header-top .mobile-menu li {
+    padding: 0; }
+
+  #page {
+    top: -15px; } }
 
 /*# sourceMappingURL=style.css.map */

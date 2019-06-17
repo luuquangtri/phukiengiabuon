@@ -466,5 +466,9 @@ header {
         font-family: $ff-discription;
     }
 }
+.mm-toggle-wrap{
+    display: none;
+}
+
 
 @import "responsive";
