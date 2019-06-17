@@ -1,67 +1,160 @@
 $fz-title:25px;
 $fz-discription-rp:12px;
 
-@media screen  and (min-width: 240px) and (max-width: 767px) {
-    .fix-width{
-        max-width: 50%;
-        flex: 0 0 100%;
-    }
-    .product-top .card .card-body .card-text,.product-wholesale-price .card .card-body .card-text{
-        font-size: $fz-discription-rp;
-    }
-    .list-carried ul{
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+    .list-carried ul {
         overflow-x: scroll;
         overflow-y: hidden;
         height: 55px;
     }
-    .list-carried ul li a{
+
+    .list-carried ul li a {
         font-size: 0;
     }
-    header .header-top .search input,header .header-top .search .btn-search,header .header-top .phone,header .header-top .shopping-bag,header .nav{
+
+    header .nav a,header .nav .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    .fix-width {
+        max-width: 25%;
+        flex: 0 0 100%;
+    }
+
+    .list-carried ul {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 55px;
+    }
+
+    header .header-top .search input,
+    header .header-top .search .btn-search,
+    header .header-top .phone,
+    header .header-top .shopping-bag,
+    header .nav {
         display: none;
     }
-    .banner img{
-        height: 30vh;
-    }
-    .banner .owl-dots{
-        display: none;
-    }
-    .discription-ft{
-        text-align: center;
-    }
-    .footer img{
-        width: 50%;
-    }
-    .cptr p{
-        font-size: $fz-discription-rp;
-        text-align: center !important;
-    }
-    .lg-ft{
-        text-align: center;
-    }
-    .list-carried ul li{
-        padding: 10px 21px;
-    }
-    .mm-toggle{
+
+    .mm-toggle {
         float: right;
     }
-    .mm-toggle-wrap{
+
+    .mm-toggle-wrap {
         background: transparent;
         display: block;
     }
-    .mobile-menu .mm-search{
+
+    .mobile-menu .mm-search {
         background: transparent;
     }
-    .logo h1{
+
+    .logo h1 {
         display: none;
     }
-    .header-top .mobile-menu a{
+
+    .header-top .mobile-menu a {
         color: black;
     }
-    .header-top .mobile-menu li{
+
+    .header-top .mobile-menu li {
         padding: 0;
     }
-    #page{
+
+    #page {
+        top: -15px;
+    }
+
+    .list-carried ul li a {
+        font-size: 0;
+    }
+}
+
+@media screen and (min-width: 240px) and (max-width: 767px) {
+    .fix-width {
+        max-width: 50%;
+        flex: 0 0 100%;
+    }
+
+    .product-top .card .card-body .card-text,
+    .product-wholesale-price .card .card-body .card-text {
+        font-size: $fz-discription-rp;
+    }
+
+    .list-carried ul {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 55px;
+    }
+
+    .list-carried ul li a {
+        font-size: 0;
+    }
+
+    header .header-top .search input,
+    header .header-top .search .btn-search,
+    header .header-top .phone,
+    header .header-top .shopping-bag,
+    header .nav {
+        display: none;
+    }
+
+    .banner img {
+        height: 30vh;
+    }
+
+    .banner .owl-dots {
+        display: none;
+    }
+
+    .discription-ft {
+        text-align: center;
+    }
+
+    .footer img {
+        width: 50%;
+    }
+
+    .cptr p {
+        font-size: $fz-discription-rp;
+        text-align: center !important;
+    }
+
+    .lg-ft {
+        text-align: center;
+    }
+
+    .list-carried ul li {
+        padding: 10px 21px;
+    }
+
+    .mm-toggle {
+        float: right;
+    }
+
+    .mm-toggle-wrap {
+        background: transparent;
+        display: block;
+    }
+
+    .mobile-menu .mm-search {
+        background: transparent;
+    }
+
+    .logo h1 {
+        display: none;
+    }
+
+    .header-top .mobile-menu a {
+        color: black;
+    }
+
+    .header-top .mobile-menu li {
+        padding: 0;
+    }
+
+    #page {
         top: -15px;
     }
 }

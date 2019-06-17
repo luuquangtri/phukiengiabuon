@@ -7,6 +7,15 @@
   padding-right: 5px;
   padding-left: 5px; }
 
+.active-2 {
+  background: #ffd100; }
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0; }
+
 .clear-fix {
   clear: both; }
 
@@ -192,7 +201,7 @@ header .nav {
       margin-top: -5px; }
   header .nav .navbar-nav .nav-item .nav-link {
     font-size: 18px;
-    padding: 0 30px;
+    padding: 10px 30px;
     color: black; }
     header .nav .navbar-nav .nav-item .nav-link .fa-home {
       font-size: 25px; }
@@ -306,12 +315,108 @@ header .nav {
 .mm-toggle-wrap {
   display: none; }
 
+.button-wrap .bttn {
+  width: 150px;
+  background: #FFC000;
+  color: #222;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px 0;
+  padding-left: 30px; }
+
+pre {
+  font-family: monospace;
+  background-color: #fFF9f9;
+  border: #bb7799 1px solid;
+  color: #440011;
+  font-size: 100%;
+  width: 80%;
+  overflow: auto;
+  word-spacing: normal;
+  word-wrap: normal;
+  padding-top: 15px; }
+
+a.options {
+  padding: 5px 10px;
+  background: #FFC000;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px; }
+
+.option-wrap {
+  margin-bottom: 10px;
+  background: #eee;
+  padding: 10px 0 10px 10px;
+  width: 80%; }
+
+@media (max-width: 767px) {
+  .browser-size {
+    display: none; } }
+@media (max-width: 640px) {
+  .option-wrap, pre {
+    width: 100%; } }
+/******** ie11 scroll bar fix *********/
+@-ms-viewport {
+  width: auto !important; }
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+  .list-carried ul {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 55px; }
+
+  .list-carried ul li a {
+    font-size: 0; }
+
+  header .nav a, header .nav .navbar-nav .nav-item .nav-link {
+    font-size: 14px; } }
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .fix-width {
+    max-width: 25%;
+    flex: 0 0 100%; }
+
+  .list-carried ul {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 55px; }
+
+  header .header-top .search input,
+  header .header-top .search .btn-search,
+  header .header-top .phone,
+  header .header-top .shopping-bag,
+  header .nav {
+    display: none; }
+
+  .mm-toggle {
+    float: right; }
+
+  .mm-toggle-wrap {
+    background: transparent;
+    display: block; }
+
+  .mobile-menu .mm-search {
+    background: transparent; }
+
+  .logo h1 {
+    display: none; }
+
+  .header-top .mobile-menu a {
+    color: black; }
+
+  .header-top .mobile-menu li {
+    padding: 0; }
+
+  #page {
+    top: -15px; }
+
+  .list-carried ul li a {
+    font-size: 0; } }
 @media screen and (min-width: 240px) and (max-width: 767px) {
   .fix-width {
     max-width: 50%;
     flex: 0 0 100%; }
 
-  .product-top .card .card-body .card-text, .product-wholesale-price .card .card-body .card-text {
+  .product-top .card .card-body .card-text,
+  .product-wholesale-price .card .card-body .card-text {
     font-size: 12px; }
 
   .list-carried ul {
@@ -322,7 +427,11 @@ header .nav {
   .list-carried ul li a {
     font-size: 0; }
 
-  header .header-top .search input, header .header-top .search .btn-search, header .header-top .phone, header .header-top .shopping-bag, header .nav {
+  header .header-top .search input,
+  header .header-top .search .btn-search,
+  header .header-top .phone,
+  header .header-top .shopping-bag,
+  header .nav {
     display: none; }
 
   .banner img {
