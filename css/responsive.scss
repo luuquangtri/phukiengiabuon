@@ -1,3 +1,6 @@
+$fz-title:25px;
+$fz-discription-rp:12px;
+
 @media screen  and (min-width: 240px) and (max-width: 768px) {
     .fix-width{
         max-width: 100%;
@@ -6,6 +9,34 @@
     .list-carried ul{
         overflow-x: scroll;
         overflow-y: hidden;
-        height: 50px;
+        height: 55px;
+    }
+    .list-carried ul li a{
+        font-size: 0;
+    }
+    header .header-top .search input,header .header-top .search .btn-search,header .header-top .phone,header .header-top .shopping-bag,header .nav{
+        display: none;
+    }
+    .banner img{
+        height: 30vh;
+    }
+    .banner .owl-dots{
+        display: none;
+    }
+    .discription-ft{
+        text-align: center;
+    }
+    .footer img{
+        width: 50%;
+    }
+    .cptr p{
+        font-size: $fz-discription-rp;
+        text-align: center !important;
+    }
+    .lg-ft{
+        text-align: center;
+    }
+    .list-carried ul li{
+        padding: 10px 21px;
     }
 }
