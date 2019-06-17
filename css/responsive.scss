@@ -1,0 +1,11 @@
+@media screen  and (min-width: 240px) and (max-width: 768px) {
+    .fix-width{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .list-carried ul{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 50px;
+    }
+}
