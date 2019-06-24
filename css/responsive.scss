@@ -1,5 +1,5 @@
-$fz-title:25px;
-$fz-discription-rp:12px;
+$fz-title:18px;
+$fz-discription-rp:14px;
 
 @media screen and (min-width: 1101px) and (max-width: 1200px) {
     .list-carried ul {
@@ -156,5 +156,51 @@ $fz-discription-rp:12px;
 
     #page {
         top: -15px;
+    }
+    .product-detail .camketbanhag{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .product-detail h2, .product-detail h4{
+        font-size: $fz-title;
+    }
+    .product-detail .price p{
+        font-size: $fz-discription-rp;
+    }
+    .discription-product{
+        font-size: $fz-discription-rp;
+    }
+    .fix-mg{
+        margin-top: 30px;
+    }
+    .sp-lienquan{
+        display: none;
+    }
+    .product-detail .price .touchpin .input-group{
+        width: 100px;
+    }
+    .product-detail .price .btn-add-card .btn-check-shop{
+        padding: 15px 25px;
+    }
+    .product-detail .breadcrumb li{
+        font-size: 12px;
+    }
+    .breadcrumb-item+.breadcrumb-item::before{
+        padding: 0 5px 0 5px;
+    }
+    .product-detail .lSSlideOuter .lSPager.lSGallery img{
+        height: auto;
+    }
+    .san-pham-all .plc{
+        display: none;
+    }
+    .product-top .card-img-top,.san-pham-all .card-img-top {
+        height: 120px;
+    }
+    select{
+        width: 25%;
+    }
+    .hotline-sp{
+        display: none;
     }
 }

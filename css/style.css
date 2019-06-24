@@ -1,11 +1,24 @@
 .container {
   max-width: 1250px; }
 
+.btn {
+  border-radius: 0; }
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  background: white;
+  border: 1px solid #dfdfdf; }
+
 .fix-width {
   flex: 0 0 20%;
   max-width: 20%;
   padding-right: 5px;
   padding-left: 5px; }
+
+label {
+  font-family: "UTM Avo";
+  font-size: 14px; }
 
 .active-2 {
   background: #ffd100; }
@@ -76,7 +89,7 @@ header .header-top {
     color: white; }
     header .header-top ul li a {
       color: white;
-      font-family: "UTM Avo"; }
+      font-family: "Roboto Condensed"; }
       header .header-top ul li a img {
         margin-top: -3px; }
   header .header-top .search input {
@@ -87,7 +100,7 @@ header .header-top {
     margin-top: 15px;
     border-radius: 10px;
     height: 40px;
-    font-family: "UTM Avo";
+    font-family: "Roboto Condensed";
     font-style: italic; }
   header .header-top .search .btn-search {
     color: #fff200;
@@ -103,7 +116,7 @@ header .header-top {
       color: #fff200;
       font-style: italic;
       font-weight: bold;
-      font-family: "UTM Avo"; }
+      font-family: "Roboto Condensed"; }
       header .header-top .phone a img {
         margin-top: -15px;
         padding-right: 5px; }
@@ -138,9 +151,12 @@ header .nav {
   background: #fff200; }
   header .nav .is-menu {
     padding: 5px 0px; }
-    header .nav .is-menu:hover .lv2 {
-      display: block;
-      pointer-events: all; }
+    header .nav .is-menu:hover {
+      background: #ffd100;
+      width: 22%; }
+      header .nav .is-menu:hover .lv2 {
+        display: block;
+        pointer-events: all; }
     header .nav .is-menu .lv2 {
       position: absolute;
       top: 100%;
@@ -195,8 +211,7 @@ header .nav {
               background: #ffd100; }
   header .nav a {
     text-transform: uppercase;
-    font-weight: 600;
-    font-family: "UTM Avo"; }
+    font-family: "Roboto Condensed"; }
     header .nav a img {
       margin-top: -5px; }
   header .nav .navbar-nav .nav-item .nav-link {
@@ -234,12 +249,12 @@ header .nav {
       background: white; }
       .list-carried ul li a {
         color: #73cbdc;
-        font-family: 14px;
+        font-family: "Roboto Condensed";
         font-size: 14px; }
 
 .product-top h1 {
   font-size: 18px;
-  font-family: "UTM Avo";
+  font-family: "Roboto Condensed";
   background: #fff200;
   padding: 8px 20px;
   font-weight: bold;
@@ -263,10 +278,12 @@ header .nav {
       color: red; }
       .product-top .card .card-body .card-text span {
         text-decoration: line-through; }
+.product-top .card-img-top {
+  height: 180px; }
 
 .product-wholesale-price h1 {
   font-size: 18px;
-  font-family: "UTM Avo";
+  font-family: "Roboto Condensed";
   background: #fff200;
   padding: 8px 20px;
   font-weight: bold;
@@ -295,12 +312,12 @@ header .nav {
   background: #000000; }
   .footer span {
     color: white;
-    font-family: "UTM Avo"; }
+    font-family: "Roboto Condensed"; }
   .footer .discription-ft a {
     display: block;
     font-weight: bold;
     color: white;
-    font-family: "UTM Avo"; }
+    font-family: "Roboto Condensed"; }
     .footer .discription-ft a span {
       text-transform: none;
       color: white;
@@ -349,11 +366,350 @@ a.options {
   padding: 10px 0 10px 10px;
   width: 80%; }
 
+.product-detail .lSSlideOuter .lSPager.lSGallery li.active,
+.product-detail .lSSlideOuter .lSPager.lSGallery li:hover {
+  opacity: 0.5; }
+.product-detail .lSSlideOuter .lSPager.lSGallery img {
+  height: 70px; }
+.product-detail .breadcrumb {
+  background: transparent; }
+  .product-detail .breadcrumb li {
+    font-family: "Roboto Condensed"; }
+    .product-detail .breadcrumb li a {
+      color: black; }
+.product-detail h2,
+.product-detail h4 {
+  font-family: "Roboto Condensed";
+  font-size: 25px; }
+.product-detail h4 {
+  background: #fff200;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic; }
+.product-detail .view-sp h2 {
+  background: #f0f0f0;
+  font-size: 18px;
+  padding: 10px; }
+.product-detail a {
+  font-family: "UTM Avo"; }
+.product-detail .discription-product span {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  display: block;
+  margin: 20px 0 20px 0; }
+.product-detail .discription-product p {
+  font-family: "UTM Avo"; }
+.product-detail li {
+  font-family: "UTM Avo"; }
+.product-detail .sp-lienquan .card {
+  border: none; }
+  .product-detail .sp-lienquan .card:hover {
+    box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease; }
+    .product-detail .sp-lienquan .card:hover .card-title {
+      color: #fff200; }
+  .product-detail .sp-lienquan .card .card-body {
+    padding: 10px 10px; }
+    .product-detail .sp-lienquan .card .card-body .card-title {
+      font-size: 14px;
+      font-family: "UTM Avo";
+      color: #000000;
+      margin-bottom: 5px !important; }
+    .product-detail .sp-lienquan .card .card-body .card-text {
+      color: red; }
+      .product-detail .sp-lienquan .card .card-body .card-text span {
+        text-decoration: line-through; }
+.product-detail .sp-lienquan h2 {
+  background: #f0f0f0;
+  font-size: 18px;
+  padding: 10px; }
+.product-detail .sp-lienquan .marquee {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: white;
+  height: 1317px; }
+.product-detail .input-group-append .btn,
+.product-detail .input-group-prepend .btn {
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+  color: black;
+  padding: 1px 10px; }
+.product-detail .input-group > .input-group-append > .btn {
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+  color: black;
+  padding: 1px 10px; }
+.product-detail .camketbanhag {
+  border: 1px solid #cdc6c6;
+  padding-bottom: 10px; }
+  .product-detail .camketbanhag ul {
+    margin-left: 30px; }
+    .product-detail .camketbanhag ul li {
+      list-style: square;
+      font-style: italic;
+      font-size: 14px; }
+.product-detail .hotline-sp ul li a {
+  font-size: 18pt;
+  font-weight: bold;
+  color: red; }
+.product-detail .discription-product .motachitiet img {
+  margin-bottom: 20px; }
+.product-detail .price h3 {
+  text-transform: uppercase;
+  font-size: 18px; }
+.product-detail .price p {
+  font-family: "UTM Avo";
+  font-size: 14px; }
+  .product-detail .price p span {
+    font-weight: bold;
+    color: red; }
+.product-detail .price .btn-add-card {
+  margin-top: 25px; }
+  .product-detail .price .btn-add-card .btn-check-shop {
+    background: #fff200;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 5px; }
+.product-detail .price .touchpin .input-group {
+  width: 30%;
+  margin-top: -5px;
+  margin-left: 10px; }
+.product-detail .price .touchpin .input-group > .custom-select:not(:first-child),
+.product-detail .price .touchpin .input-group > .form-control:not(:first-child) {
+  text-align: center; }
+.product-detail .price .color .btn-group label:nth-child(1) {
+  margin-right: 20px;
+  position: relative; }
+  .product-detail .price .color .btn-group label:nth-child(1)::before {
+    position: absolute;
+    content: '';
+    width: 39px;
+    height: 39px;
+    top: -1px;
+    left: -1px;
+    background: red; }
+.product-detail .price .color .btn-group label:nth-child(2) {
+  margin-right: 20px;
+  position: relative; }
+  .product-detail .price .color .btn-group label:nth-child(2)::before {
+    position: absolute;
+    content: '';
+    width: 39px;
+    height: 39px;
+    top: -1px;
+    left: -1px;
+    background: blue; }
+.product-detail .price .color .btn-group label:nth-child(3) {
+  margin-right: 20px;
+  position: relative; }
+  .product-detail .price .color .btn-group label:nth-child(3)::before {
+    position: absolute;
+    content: '';
+    width: 39px;
+    height: 39px;
+    top: -1px;
+    left: -1px;
+    background: yellow; }
+
+.san-pham-all .duong-dan .breadcrumb {
+  background: transparent; }
+  .san-pham-all .duong-dan .breadcrumb li {
+    font-family: "Roboto Condensed"; }
+    .san-pham-all .duong-dan .breadcrumb li a {
+      color: black; }
+.san-pham-all .card {
+  border: none; }
+  .san-pham-all .card:hover {
+    box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease; }
+    .san-pham-all .card:hover .card-title {
+      color: #fff200; }
+  .san-pham-all .card .card-body {
+    padding: 10px 10px; }
+    .san-pham-all .card .card-body .card-title {
+      font-size: 14px;
+      font-family: "UTM Avo";
+      color: #000000;
+      margin-bottom: 5px !important; }
+    .san-pham-all .card .card-body .card-text {
+      color: red; }
+      .san-pham-all .card .card-body .card-text span {
+        text-decoration: line-through; }
+.san-pham-all .card-img-top {
+  height: 180px; }
+.san-pham-all .plc li:nth-child(4n+2) {
+  width: 240px; }
+.san-pham-all .plc li:last-child {
+  width: 240px;
+  margin-right: 0;
+  border: none; }
+.san-pham-all .plc {
+  background: #f1faf3;
+  overflow: hidden;
+  font-size: 14px;
+  color: #333;
+  line-height: 18px;
+  border-top: 1px solid #d0dfd2;
+  border-bottom: 1px solid #d0dfd2; }
+  .san-pham-all .plc ul {
+    height: 58px;
+    max-width: 1200px;
+    width: 100%;
+    min-width: 980px;
+    margin: 0 auto;
+    position: relative; }
+    .san-pham-all .plc ul li {
+      width: 205px;
+      display: inline-block;
+      box-sizing: border-box;
+      padding: 0;
+      border-right: solid 1px #d0dfd2;
+      margin: 12px 22px 12px 0; }
+      .san-pham-all .plc ul li span {
+        text-align: left;
+        display: block;
+        padding-right: 18px;
+        font-family: "Roboto Condensed"; }
+      .san-pham-all .plc ul li i {
+        display: inline-block;
+        float: left;
+        margin-right: 15px; }
+      .san-pham-all .plc ul li .icGh {
+        background: url("../images/icon-sp-1.png");
+        width: 35px;
+        height: 34px;
+        background-size: 35px 28px;
+        background-repeat: no-repeat;
+        background-position: 0 4px; }
+      .san-pham-all .plc ul li .icTt {
+        background: url("../images/icon-sp-2.png");
+        width: 29px;
+        height: 31px;
+        background-size: 29px 31px; }
+      .san-pham-all .plc ul li .icTn {
+        background: url("../images/icon-sp-3.png");
+        width: 31px;
+        height: 31px;
+        background-size: 31px 31px; }
+      .san-pham-all .plc ul li .icLd {
+        background: url("../images/icon-sp-4.png");
+        width: 32px;
+        height: 32px;
+        background-size: 32px 32px; }
+      .san-pham-all .plc ul li .icHt {
+        background: url("../images/icon-sp-5.png");
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px; }
+
+.lien-he .contact-form input {
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  background-color: #e9ecef; }
+.lien-he .contact-form input::placeholder {
+  font-style: italic;
+  font-family: "UTM Avo"; }
+.lien-he .contact-form .form-control:focus {
+  border-color: #fff200;
+  box-shadow: none; }
+.lien-he .contact-form textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  background-color: #e9ecef; }
+.lien-he .contact-form textarea:focus {
+  border-color: #fff200;
+  box-shadow: none;
+  outline: none; }
+.lien-he .contact-form textarea::placeholder {
+  font-style: italic;
+  font-family: "UTM Avo";
+  padding-left: 10px; }
+.lien-he .contact-form h2 {
+  font-family: "Roboto Condensed";
+  font-size: 26px;
+  padding: 20px 10px 0 0;
+  color: black; }
+.lien-he .contact-form span {
+  font-size: 14px;
+  font-family: "UTM Avo";
+  margin-bottom: 20px; }
+.lien-he .contact-form .name-company {
+  font-size: 26px;
+  color: #000000; }
+.lien-he .contact-form form {
+  margin-top: 20px; }
+  .lien-he .contact-form form label {
+    font-size: 14px;
+    font-family: "UTM Avo"; }
+.lien-he .contact-form p {
+  font-size: 14px;
+  font-family: "UTM Avo"; }
+.lien-he .contact-form a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "UTM Avo";
+  margin-bottom: 15px; }
+.lien-he .contact-form .fa-location-arrow {
+  font-size: 20px;
+  padding-right: 10px;
+  color: #cd0a0a; }
+.lien-he .contact-form .fa-phone {
+  font-size: 20px;
+  padding-right: 10px;
+  color: #cd0a0a; }
+.lien-he .contact-form .fa-envelope-o {
+  font-size: 20px;
+  padding-right: 10px;
+  color: #cd0a0a; }
+
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none; }
+
+#boxes .window {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 440px;
+  height: 200px;
+  display: none;
+  z-index: 9999;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center; }
+
+#boxes #dialog {
+  margin-top: -300px;
+  width: 450px;
+  height: 500px;
+  padding: 10px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt; }
+
+#popupfoot {
+  font-size: 16pt;
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  left: 120px; }
+
 @media (max-width: 767px) {
   .browser-size {
     display: none; } }
 @media (max-width: 640px) {
-  .option-wrap, pre {
+  .option-wrap,
+  pre {
     width: 100%; } }
 /******** ie11 scroll bar fix *********/
 @-ms-viewport {
@@ -417,7 +773,7 @@ a.options {
 
   .product-top .card .card-body .card-text,
   .product-wholesale-price .card .card-body .card-text {
-    font-size: 12px; }
+    font-size: 14px; }
 
   .list-carried ul {
     overflow-x: scroll;
@@ -447,7 +803,7 @@ a.options {
     width: 50%; }
 
   .cptr p {
-    font-size: 12px;
+    font-size: 14px;
     text-align: center !important; }
 
   .lg-ft {
@@ -476,6 +832,52 @@ a.options {
     padding: 0; }
 
   #page {
-    top: -15px; } }
+    top: -15px; }
+
+  .product-detail .camketbanhag {
+    width: 100%;
+    margin-top: 30px; }
+
+  .product-detail h2, .product-detail h4 {
+    font-size: 18px; }
+
+  .product-detail .price p {
+    font-size: 14px; }
+
+  .discription-product {
+    font-size: 14px; }
+
+  .fix-mg {
+    margin-top: 30px; }
+
+  .sp-lienquan {
+    display: none; }
+
+  .product-detail .price .touchpin .input-group {
+    width: 100px; }
+
+  .product-detail .price .btn-add-card .btn-check-shop {
+    padding: 15px 25px; }
+
+  .product-detail .breadcrumb li {
+    font-size: 12px; }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    padding: 0 5px 0 5px; }
+
+  .product-detail .lSSlideOuter .lSPager.lSGallery img {
+    height: auto; }
+
+  .san-pham-all .plc {
+    display: none; }
+
+  .product-top .card-img-top, .san-pham-all .card-img-top {
+    height: 120px; }
+
+  select {
+    width: 25%; }
+
+  .hotline-sp {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
