@@ -728,8 +728,11 @@ a.options {
 
   header .nav a,
   header .nav .navbar-nav .nav-item .nav-link {
-    font-size: 14px; } }
-@media (min-width: 769px) {
+    font-size: 14px; }
+
+  .product-detail .hotline-sp ul li a {
+    font-size: 16pt; } }
+@media (min-width: 767px) {
   .navbar-expand-lg .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -750,12 +753,30 @@ a.options {
     max-width: 25%;
     flex: 0 0 100%; }
 
+  .product-detail h2, .product-detail h4 {
+    font-size: 18px; }
+
+  .product-detail .camketbanhag ul li {
+    font-size: 12px; }
+
+  .product-detail .camketbanhag ul {
+    margin-left: 25px; }
+
+  .product-detail .price p {
+    font-size: 12px; }
+
+  .product-detail .price .touchpin .input-group {
+    width: 40%; }
+
+  .product-detail .hotline-sp ul li a {
+    font-size: 11pt; }
+
   header .nav .navbar-nav .nav-item .nav-link {
-    font-size: 15px;
+    font-size: 14px;
     padding: 10px; }
 
   header .nav .navbar-nav .nav-item .nav-link .fa-home {
-    font-size: 20px; }
+    font-size: 18px; }
 
   .list-carried ul {
     overflow-x: scroll;
