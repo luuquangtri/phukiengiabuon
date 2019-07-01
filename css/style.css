@@ -714,49 +714,111 @@ a.options {
 /******** ie11 scroll bar fix *********/
 @-ms-viewport {
   width: auto !important; }
-@media screen and (min-width: 1101px) and (max-width: 1200px) {
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
   .list-carried ul {
     overflow-x: scroll;
     overflow-y: hidden;
     height: 55px; }
+
+  header .nav .navbar-nav .nav-item .nav-link .fa-home {
+    font-size: 15px; }
 
   .list-carried ul li a {
     font-size: 0; }
 
-  header .nav a, header .nav .navbar-nav .nav-item .nav-link {
+  header .nav a,
+  header .nav .navbar-nav .nav-item .nav-link {
     font-size: 14px; } }
-@media screen and (min-width: 768px) and (max-width: 1100px) {
+@media (min-width: 769px) {
+  .navbar-expand-lg .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center; }
+
+  .navbar-expand-lg {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; } }
+@media screen and (min-width: 768px) and (max-width: 1000px) {
   .fix-width {
     max-width: 25%;
     flex: 0 0 100%; }
+
+  header .nav .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    padding: 10px; }
+
+  header .nav .navbar-nav .nav-item .nav-link .fa-home {
+    font-size: 20px; }
 
   .list-carried ul {
     overflow-x: scroll;
     overflow-y: hidden;
     height: 55px; }
+
+  header .header-top .phone {
+    margin-top: 35px; }
 
   header .header-top .search input,
   header .header-top .search .btn-search,
   header .header-top .phone,
   header .header-top .shopping-bag,
   header .nav {
-    display: none; }
-
-  .mm-toggle {
-    float: right; }
-
-  .mm-toggle-wrap {
-    background: transparent;
     display: block; }
 
-  .mobile-menu .mm-search {
-    background: transparent; }
+  header .header-top .search input {
+    width: 100%; }
+
+  header .header-top .phone a {
+    font-size: 20px; }
 
   .logo h1 {
+    display: block; }
+
+  header .header-top .shopping-bag::before {
+    left: 10%; }
+
+  header .header-top .shopping-bag a {
+    font-size: 12px;
+    position: relative; }
+
+  header .header-top .phone a img {
+    margin-top: 0px;
+    width: 30px; }
+
+  header .header-top .shopping-bag .check-card {
     display: none; }
+
+  .navbar-light .navbar-brand {
+    font-size: 14px; }
+
+  header .nav a img {
+    width: 18px; }
+
+  header .nav .is-menu .lv2 .is-menu-1 .bd-lv2 a {
+    font-size: 12px; }
+
+  header .nav .is-menu .lv2 .is-menu-1,
+  header .nav .is-menu .lv2.is-menu-2 {
+    width: 230px; }
+
+  header .nav .is-menu:hover {
+    width: 230px; }
+
+  .navbar-collapse {
+    display: block !important; }
 
   .header-top .mobile-menu a {
     color: black; }
+
+  header .header-top .search .btn-search .fa-search {
+    font-size: 15px; }
 
   .header-top .mobile-menu li {
     padding: 0; }
@@ -813,7 +875,7 @@ a.options {
     padding: 10px 21px; }
 
   .mm-toggle {
-    float: right; }
+    float: left; }
 
   .mm-toggle-wrap {
     background: transparent;
@@ -838,7 +900,8 @@ a.options {
     width: 100%;
     margin-top: 30px; }
 
-  .product-detail h2, .product-detail h4 {
+  .product-detail h2,
+  .product-detail h4 {
     font-size: 18px; }
 
   .product-detail .price p {
@@ -871,7 +934,8 @@ a.options {
   .san-pham-all .plc {
     display: none; }
 
-  .product-top .card-img-top, .san-pham-all .card-img-top {
+  .product-top .card-img-top,
+  .san-pham-all .card-img-top {
     height: 120px; }
 
   select {

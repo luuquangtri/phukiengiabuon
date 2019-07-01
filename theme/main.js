@@ -23,7 +23,7 @@ jQuery(document).ready(function ($) {
       SlideSpeed: 300,
       WindowsMaxWidth: 767,
       PagePush: true,
-      FromLeft: false,
+      FromLeft: true,
       Overlay: true,
       CollapseMenu: true,
       ClassName: "mobile-menu"
