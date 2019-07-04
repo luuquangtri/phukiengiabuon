@@ -323,6 +323,24 @@ header .nav {
       color: white;
       font-weight: normal;
       font-size: 14px; }
+  .footer .social ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; }
+    .footer .social ul li {
+      padding-right: 10px; }
+      .footer .social ul li a {
+        background-image: url("../images/social-sprite.png");
+        background-repeat: no-repeat;
+        display: block;
+        width: 38px;
+        height: 38px; }
+  .footer .social .facebook a {
+    background-position: 0 0; }
+  .footer .social .zalo a {
+    background-position: -38px 0; }
+  .footer .social .youtube a {
+    background-position: -114px 0; }
 
 .cptr {
   background: #ffd100; }
