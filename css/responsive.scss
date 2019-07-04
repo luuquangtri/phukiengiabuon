@@ -179,6 +179,24 @@ $fz-discription-rp:14px;
         max-width: 50%;
         flex: 0 0 100%;
     }
+    .login .name input,.login .matkhau input{
+        width: 100%;
+        margin: 0;
+    }
+    .login .line-r::before{
+        display: none;
+    
+    }
+    .login .submit-login{
+        transform: translateX(0);
+        font-size: 12px;
+    }
+    .line-r{
+        text-align: left !important;
+    }
+    .line-r h2{
+        text-align: center !important;
+    }
 
     .product-top .card .card-body .card-text,
     .product-wholesale-price .card .card-body .card-text {

@@ -257,11 +257,11 @@ header {
                 }
             }
         }
-        .logo {
-            // img {
-            //     width: 60%
-            // }
-        }
+        // .logo {
+        //     // img {
+        //     //     width: 60%
+        //     // }
+        // }
         .search {
             input {
                 border: none;
@@ -408,7 +408,7 @@ header {
                                 &:hover {
                                     background: $bg-active;
                                 }
-                                a {}
+                                // a {}
                             }
                         }
                     }
@@ -814,10 +814,10 @@ a.options {
     .card-img-top {
         height: 180px;
     }
-    .plc li:first-child span,
-    .plc li:nth-child(2) span {
-        // padding-top: 9px;
-    }
+    // .plc li:first-child span,
+    // .plc li:nth-child(2) span {
+    //     // padding-top: 9px;
+    // }
     .plc li:nth-child(4n+2) {
         width: 240px;
     }
