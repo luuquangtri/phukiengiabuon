@@ -869,6 +869,23 @@ a.options {
     max-width: 50%;
     flex: 0 0 100%; }
 
+  .login .name input, .login .matkhau input {
+    width: 100%;
+    margin: 0; }
+
+  .login .line-r::before {
+    display: none; }
+
+  .login .submit-login {
+    transform: translateX(0);
+    font-size: 12px; }
+
+  .line-r {
+    text-align: left !important; }
+
+  .line-r h2 {
+    text-align: center !important; }
+
   .product-top .card .card-body .card-text,
   .product-wholesale-price .card .card-body .card-text {
     font-size: 14px; }
@@ -1035,5 +1052,24 @@ a.options {
     height: 100%;
     left: 35px;
     top: -15px; }
+
+.contact-ht li {
+  font-family: "Roboto Condensed";
+  padding: 5px 0;
+  text-align: left; }
+.contact-ht select {
+  border: none;
+  border-bottom: 1px solid #cacaca; }
+  .contact-ht select:focus {
+    outline: none; }
+.contact-ht textarea {
+  margin: 5px 0;
+  border: 1px solid #cacaca; }
+  .contact-ht textarea:focus {
+    outline: none; }
+.contact-ht textarea::placeholder {
+  padding-left: 5px; }
+.contact-ht ul {
+  width: 30%; }
 
 /*# sourceMappingURL=style2.css.map */
