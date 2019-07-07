@@ -37,7 +37,12 @@
     max-width: 25%;
     flex: 0 0 100%; }
 
-  .product-detail h2, .product-detail h4 {
+  .contact-ht ul {
+    width: 38%;
+    margin-top: 25px; }
+
+  .product-detail h2,
+  .product-detail h4 {
     font-size: 18px; }
 
   .product-detail .camketbanhag ul li {
@@ -135,9 +140,26 @@
     max-width: 50%;
     flex: 0 0 100%; }
 
-  .login .name input, .login .matkhau input {
+  #test label,
+  #test a {
+    font-size: 20px !important; }
+
+  .contact-ht form {
+    width: 100% !important; }
+
+  .contact-ht select {
+    width: 100px; }
+
+  .contact-ht ul {
+    width: 100%; }
+
+  .login .name input,
+  .login .matkhau input {
     width: 100%;
     margin: 0; }
+
+  .contact-ht li {
+    text-align: center; }
 
   .login .line-r::before {
     display: none; }

@@ -1,24 +1,22 @@
 $fz-title:18px;
 $fz-discription-rp:14px;
-
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
     .list-carried ul {
         overflow-x: scroll;
         overflow-y: hidden;
         height: 55px;
     }
-    header .nav .navbar-nav .nav-item .nav-link .fa-home{
+    header .nav .navbar-nav .nav-item .nav-link .fa-home {
         font-size: 15px;
     }
     .list-carried ul li a {
         font-size: 0;
     }
-
     header .nav a,
     header .nav .navbar-nav .nav-item .nav-link {
         font-size: 14px;
     }
-    .product-detail .hotline-sp ul li a{
+    .product-detail .hotline-sp ul li a {
         font-size: 16pt;
     }
 }
@@ -47,29 +45,34 @@ $fz-discription-rp:14px;
         max-width: 25%;
         flex: 0 0 100%;
     }
-    .product-detail h2, .product-detail h4{
+    .contact-ht ul {
+        width: 38%;
+        margin-top: 25px;
+    }
+    .product-detail h2,
+    .product-detail h4 {
         font-size: 18px;
     }
-    .product-detail .camketbanhag ul li{
+    .product-detail .camketbanhag ul li {
         font-size: 12px;
     }
-    .product-detail .camketbanhag ul{
+    .product-detail .camketbanhag ul {
         margin-left: 25px;
     }
-    .product-detail .price p{
+    .product-detail .price p {
         font-size: 12px;
     }
-    .product-detail .price .touchpin .input-group{
+    .product-detail .price .touchpin .input-group {
         width: 40%;
     }
-    .product-detail .hotline-sp ul li a{
-        font-size:11pt;
+    .product-detail .hotline-sp ul li a {
+        font-size: 11pt;
     }
-    header .nav .navbar-nav .nav-item .nav-link{
+    header .nav .navbar-nav .nav-item .nav-link {
         font-size: 14px;
         padding: 10px;
     }
-    header .nav .navbar-nav .nav-item .nav-link .fa-home{
+    header .nav .navbar-nav .nav-item .nav-link .fa-home {
         font-size: 18px;
     }
     .list-carried ul {
@@ -77,11 +80,9 @@ $fz-discription-rp:14px;
         overflow-y: hidden;
         height: 55px;
     }
-
     header .header-top .phone {
         margin-top: 35px;
     }
-
     header .header-top .search input,
     header .header-top .search .btn-search,
     header .header-top .phone,
@@ -89,86 +90,67 @@ $fz-discription-rp:14px;
     header .nav {
         display: block;
     }
-
     // .mm-toggle {
     //     float: right;
     // }
-
     // .mm-toggle-wrap {
     //     background: transparent;
     //     display: block;
     // }
-
     // .mobile-menu .mm-search {
     //     background: transparent;
     // }
     header .header-top .search input {
         width: 100%;
     }
-
     header .header-top .phone a {
         font-size: 20px;
     }
-
     .logo h1 {
         display: block;
     }
-
     header .header-top .shopping-bag::before {
         left: 10%;
     }
-
     header .header-top .shopping-bag a {
         font-size: 12px;
         position: relative;
     }
-
     header .header-top .phone a img {
         margin-top: 0px;
         width: 30px;
     }
-
     header .header-top .shopping-bag .check-card {
         display: none;
     }
-
     .navbar-light .navbar-brand {
         font-size: 14px;
     }
-
     header .nav a img {
         width: 18px;
     }
-
     header .nav .is-menu .lv2 .is-menu-1 .bd-lv2 a {
         font-size: 12px;
     }
-
     header .nav .is-menu .lv2 .is-menu-1,
     header .nav .is-menu .lv2.is-menu-2 {
         width: 230px;
     }
-
     .navbar-collapse {
         display: block !important;
     }
-
     .header-top .mobile-menu a {
         color: black;
     }
-
     header .header-top .search .btn-search .fa-search {
         font-size: 15px;
     }
-
     .header-top .mobile-menu li {
         padding: 0;
     }
-
     #page {
         top: -15px;
     }
-
     .list-carried ul li a {
         font-size: 0;
     }
@@ -179,40 +161,55 @@ $fz-discription-rp:14px;
         max-width: 50%;
         flex: 0 0 100%;
     }
-    .login .name input,.login .matkhau input{
+    #test label,
+    #test a {
+        font-size: 20px !important;
+    }
+    .contact-ht form {
+        width: 100% !important;
+    }
+    .contact-ht select {
+        width: 100px;
+    }
+    .contact-ht ul {
+        width: 100%;
+    }
+    .contact-ht ul textarea {
+        // width: 100% !important;
+    }
+    .login .name input,
+    .login .matkhau input {
         width: 100%;
         margin: 0;
     }
-    .login .line-r::before{
-        display: none;
-    
+    .contact-ht li {
+        text-align: center;
     }
-    .login .submit-login{
+    .login .line-r::before {
+        display: none;
+    }
+    .login .submit-login {
         transform: translateX(0);
         font-size: 12px;
     }
-    .line-r{
+    .line-r {
         text-align: left !important;
     }
-    .line-r h2{
+    .line-r h2 {
         text-align: center !important;
     }
-
     .product-top .card .card-body .card-text,
     .product-wholesale-price .card .card-body .card-text {
         font-size: $fz-discription-rp;
     }
-
     .list-carried ul {
         overflow-x: scroll;
         overflow-y: hidden;
         height: 55px;
     }
-
     .list-carried ul li a {
         font-size: 0;
     }
-
     header .header-top .search input,
     header .header-top .search .btn-search,
     header .header-top .phone,
@@ -220,124 +217,95 @@ $fz-discription-rp:14px;
     header .nav {
         display: none;
     }
-
     .banner img {
         height: 30vh;
     }
-
     .banner .owl-dots {
         display: none;
     }
-
     .discription-ft {
         text-align: center;
     }
-
     .footer img {
         width: 50%;
     }
-
     .cptr p {
         font-size: $fz-discription-rp;
         text-align: center !important;
     }
-
     .lg-ft {
         text-align: center;
     }
-
     .list-carried ul li {
         padding: 10px 21px;
     }
-
     .mm-toggle {
         float: left;
     }
-
     .mm-toggle-wrap {
         background: transparent;
         display: block;
     }
-
     .mobile-menu .mm-search {
         background: transparent;
     }
-
     .logo h1 {
         display: none;
     }
-
     .header-top .mobile-menu a {
         color: black;
     }
-
     .header-top .mobile-menu li {
         padding: 0;
     }
-
     #page {
         top: -15px;
     }
-
     .product-detail .camketbanhag {
         width: 100%;
         margin-top: 30px;
     }
-
     .product-detail h2,
     .product-detail h4 {
         font-size: $fz-title;
     }
-
     .product-detail .price p {
         font-size: $fz-discription-rp;
     }
-
     .discription-product {
         font-size: $fz-discription-rp;
     }
-
     .fix-mg {
         margin-top: 30px;
     }
-
     .sp-lienquan {
         display: none;
     }
-
     .product-detail .price .touchpin .input-group {
         width: 100px;
     }
-
     .product-detail .price .btn-add-card .btn-check-shop {
         padding: 15px 25px;
     }
-
     .product-detail .breadcrumb li {
         font-size: 12px;
     }
-
     .breadcrumb-item+.breadcrumb-item::before {
         padding: 0 5px 0 5px;
     }
-
     .product-detail .lSSlideOuter .lSPager.lSGallery img {
         height: auto;
     }
-
     .san-pham-all .plc {
         display: none;
     }
-
     .product-top .card-img-top,
     .san-pham-all .card-img-top {
         height: 120px;
     }
-
     select {
         width: 25%;
     }
-
     .hotline-sp {
         display: none;
     }
